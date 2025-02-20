@@ -1,0 +1,17 @@
+.friendsListItem {
+  padding: 20px;
+  max-width: 100%;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: #cdcbc9;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+p {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
