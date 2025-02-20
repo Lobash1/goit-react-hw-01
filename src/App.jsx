@@ -1,11 +1,13 @@
 // import { useState } from "react";
 import "./App.css";
-import Profile from "./components/Profile/Profile";
+
 import userData from "./userData.json";
 import friends from "./friends.json";
-// import FriendListItem from "./components/FriendListItem/FriendListItem";
-// import FriendList from "./components/FriendListItem/FriendList";
+import transactions from "./transactions.json";
+
+import Profile from "./components/Profile/Profile";
 import FriendList from "./components/FriendList/FriendList";
+import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
 
 export const App = () => {
   return (
@@ -19,6 +21,7 @@ export const App = () => {
       />
 
       <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
 };

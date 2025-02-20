@@ -1,0 +1,31 @@
+.tbl {
+  width: 100%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.tbl th,
+.tbl td {
+  padding: 16px 28px;
+  text-align: center;
+  border: 2px solid #171616;
+}
+.tbl th {
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #322e2e;
+  color: #fff;
+}
+.tbl td {
+  font-size: 18px;
+  color: #333;
+}
+.tbl tr:nth-child(even) {
+  background-color: #e0e0e0;
+}
+.tbl tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
